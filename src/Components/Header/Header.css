@@ -1,0 +1,83 @@
+
+.menubar{
+    display:flex;
+    justify-content:space-between;
+    margin-left:40%;
+}
+li{
+ display:block;
+ 
+}
+.menubar .nav-link a{
+ display:block;
+ text-decoration:none;
+ color:rgb(241, 239, 239);
+ font-size:20px;
+ padding:0 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.menubar .nav-link a:hover{
+  color:red;
+}
+img{
+  width:100px;
+  margin:0 10px;
+}
+.mylogo{
+  color:#fff;
+  display:flex;
+  align-content: flex-start;
+  margin-top: 20px;
+  text-align: center;
+}
+.buy button{
+  justify-content: flex-end;
+  margin-left: 70%;
+  margin-top: 30px;
+  padding:10px 35px;
+  border-radius: 40px;
+  background-color:red;
+  color:#fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+.buy button:hover{
+  background-color: #1b6b6c;
+}
+.header-sec{
+  background:linear-gradient(#00000067,#00000066),url("../Images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.banner-sec{
+  padding: 70px 0;
+  margin-top: 80px;
+  color:#fff;
+}
+.banner-sec h1{
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.banner-sec p{
+  font-size: 20px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+
+@media (max-width:768px){
+  .banner-sec{
+    text-align: center;
+  }
+  .banner-sec h1{
+    font-size: 33px;
+  }
+  .banner-sec p{
+    font-size: 20px;
+  }
+
+}

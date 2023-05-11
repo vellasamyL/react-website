@@ -1,0 +1,60 @@
+  .team-sec{
+    padding: 70px 0;
+  }
+  
+  .images img{
+    width:200px;
+    height:auto;
+    border-radius: 50%;
+  }
+  .images h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .images p{
+    text-align: center;
+    color:grey;
+    font-weight: 600;
+  }
+  .images{
+    position: relative;
+    line-height: 12px;
+  }
+  .teamicon{
+    position: absolute;
+    top:160px;
+    bottom:0;
+    left:40px;
+    opacity:0;
+  }
+  .teamicon i{
+    margin:0 3px;
+    width:35px;
+    height:35px;
+    line-height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgba(44, 42, 42, 0.959);
+    color:#fff;
+  }
+  .images:hover .teamicon{
+    opacity: 1;
+  }
+
+
+  @media (max-width:768px){
+    .row{
+      flex-wrap: wrap;
+    }
+    .images img{
+      width:335px;
+     justify-content: center;
+    }
+    .teamicon{
+      position: absolute;
+      top:250px;
+      bottom:0;
+      left:110px;
+    }
+  }

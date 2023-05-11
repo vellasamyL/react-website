@@ -1,0 +1,46 @@
+.test-sec{
+    padding: 60px 0;
+   
+}
+.crop img{
+    width:120px;
+    border-radius: 50%;
+}
+.para{
+    margin-top: 20px;
+    color:grey;
+    font-size: 17px;
+}
+.rating h3{
+   font-size: 20px;
+   margin-top: 20px;
+}
+.rating i{
+    margin-top: 30px;
+    color:#75d1d3ad;
+}
+
+
+@media (max-width:768px){
+    .crop img{
+        width:200px;
+        border-radius: 50%;
+        justify-content: center;
+    }
+    .testpara{
+       justify-content: flex-start;
+    }
+    .rating{
+       display: flex;
+    }
+}
+
+@media (min-width:768px) and (max-width:968px){
+    .crop img{
+        width:110px;
+    }
+    .testpara{
+        margin-top: 15px;
+        padding-left: 50px;
+     }
+}

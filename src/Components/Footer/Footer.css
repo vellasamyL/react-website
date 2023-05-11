@@ -1,0 +1,115 @@
+.nila img{
+    width:100px;
+}
+.foot h2{
+    font-size: 23px;
+}
+.footer-sec{
+    background-color: #000;
+    color:#fff;
+    padding: 60px 0;
+}
+p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+p .fa{
+   font-size: 22px;
+   margin: 0 10px;
+}
+.btn-flex{
+    margin-top: 30px;
+}
+.btn-flex i{
+    width:40px;
+    height:40px;
+    margin:0 6px;
+    text-align: center;
+    line-height: 40px;
+    background-color:#ff4a52;
+    color:#fff;
+    border:solid 1px #ff4a52;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.btn-flex .face i:hover{
+    background-color: blue;
+    color:#fff;
+    border:none;
+    transition: 1s linear;
+}
+.btn-flex .twit i:hover{
+    background-color: rgb(77, 187, 255);
+    color:#fff;
+    border:none;
+    transition: 1s linear;
+}
+.btn-flex .watts i:hover{
+    background-color: rgb(4, 236, 4);
+    color:#fff;
+    border:none;
+    transition: 1s linear;
+}
+.btn-flex .insta i:hover{
+    background-color:#ff0062;
+    color:#fff;
+    border:none;
+    transition: 1s linear;
+}
+.btn-flex .google i:hover{
+    background-color:rgba(255, 72, 0, 0.534);
+    color:#fff;
+    border:none;
+    transition: 1s linear;
+}
+.mini{
+    margin:5px 25px;
+}
+.mini img{
+    border-radius:7px;
+    height:100px;
+}
+.sign-sec{
+   margin-top: 80px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+@media (max-width:768px){
+    .mini{
+        margin:5px 10px;
+      margin-left: -30px;
+    }
+    .nila{
+       display: flex;
+       justify-content: center;
+    }
+    .btn-flex{
+        text-align: center;
+    }
+    .minicontent{
+        margin-top: 60px;
+    }
+    .mini img{
+        border-radius:7px;
+        height:100px;
+        width:110px;  
+    }
+   
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .nila img{
+        width:100px;
+    }
+    .myimg{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .mini img{
+       padding: 0 8px; 
+    }
+
+}

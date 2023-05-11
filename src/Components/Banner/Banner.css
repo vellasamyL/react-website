@@ -1,0 +1,45 @@
+  .whychoose{
+    padding: 30px 0;
+  }
+  .sec-title{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .sec-title h1{
+    font-size: 35px;
+    font-weight: 650;
+  }
+  .sec-title p{
+    color:grey;
+    font-size: 18px;
+  }
+  .boxes-sec{
+    display: flex;
+    justify-content: space-between;
+  }
+  .boxes{
+    padding: 25px;
+    text-align: center;
+  }
+  .boxes .fa{
+    font-size: 70px;
+    color:#1ec6b6;
+  }
+  .boxes h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  .boxes p{
+    color:grey;
+    font-size: 19px;
+  }
+
+  @media (max-width:768px){
+    .boxes-sec{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 30px 0;
+    }
+  }
